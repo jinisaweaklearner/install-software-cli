@@ -1,4 +1,6 @@
-# install_software_cli
+# install-software-cli
+
+From a new laptop/pc, reinstall everything we need from cli with homebrew.
 
 ```
 # homebrew
@@ -7,15 +9,27 @@
 # chrome
 brew install --cask google-chrome
 
-# python
-
-
 # anaconda
-
+brew install --cask anaconda
 
 # vscode
 brew install --cask visual-studio-code
 
+# pycharm
+brew install --cask pycharm
+
 # git
 brew install git
+
+# sublime
+brew install --cask sublime-text
+
+# karabiner-elements
+brew install --cask karabiner-elements
+
+# Notion
+brew install --cask notion
+
+# mendeley
+
 ```
