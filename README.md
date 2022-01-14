@@ -30,6 +30,15 @@ brew install --cask karabiner-elements
 # Notion
 brew install --cask notion
 
-# mendeley
+# mendeley reference manager
+brew install --cask mendeley-reference-manager
 
+# mathpix snipping tool
+brew install --cask mathpix-snipping-tool
+
+# teams
+brew install --cask microsoft-teams
+
+# slack
+brew install --cask slack
 ```
