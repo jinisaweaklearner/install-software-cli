@@ -16,7 +16,7 @@ brew install --cask anaconda
 brew install --cask visual-studio-code
 
 # pycharm
-brew install --cask pycharm
+brew install --cask pycharm-ce
 
 # git
 brew install git
@@ -41,4 +41,7 @@ brew install --cask microsoft-teams
 
 # slack
 brew install --cask slack
+
+# list all installed packages
+brew list
 ```
