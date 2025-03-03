@@ -55,3 +55,28 @@ brew install --cask slack
 # list all installed packages
 brew list
 ```
+
+Git setup
+```bash
+# Checking for existing SSH keys
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/
+
+# Adding a new SSH key to your GitHub account
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-accountgenerating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+# create ssh key
+ssh-keygen -t ed25519 -C "xxxx@xxx.com.au"
+cat /home/jupyter/.ssh/id_ed25519.pub
+
+# add name and email
+git config --global user.name "xxx"
+git config --global user.email xxxx@xxxx.com.au
+
+# add shortcut
+git config --global alias.a "add ."
+git config --global alias.s "status"
+git config --global alias.cm "commit -m"
+
+# check config
+cat ~/.gitconfig
+```
