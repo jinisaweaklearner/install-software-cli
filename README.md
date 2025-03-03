@@ -23,6 +23,7 @@ brew install --cask sublime-text
 
 # install gcp cli
 brew install --cask google-cloud-sdk
+gcould init
 
 # k8s
 brew install kubernetes-cli
