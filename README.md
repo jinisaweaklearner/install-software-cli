@@ -18,11 +18,20 @@ brew install --cask visual-studio-code
 # pycharm
 brew install --cask pycharm-ce
 
-# git
-brew install git
-
 # sublime
 brew install --cask sublime-text
+
+# install gcp cli
+brew install --cask google-cloud-sdk
+
+# k8s
+brew install kubernetes-cli
+
+# argo workflow
+brew install argo
+
+# git
+brew install git
 
 # karabiner-elements
 brew install --cask karabiner-elements
